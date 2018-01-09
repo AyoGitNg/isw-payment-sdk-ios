@@ -92,7 +92,7 @@ If you haven’t registered your app on DevConsole register the app and get your
 * Add the following to your Podfile, inside the first target block:
 
 	```
-	pod 'CryptoSwift', :git => 'https://github.com/krzyzanowskim/CryptoSwift.git', :tag => '0.6.9'
+	pod 'CryptoSwift', :git => 'https://github.com/krzyzanowskim/CryptoSwift.git', :tag => '0.7.1'
 	pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire.git', :tag => '4.4.0'
 	pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git', :tag => '3.1.4'
 	pod 'OpenSSL-Universal', '1.0.2.10'
@@ -111,7 +111,7 @@ If you haven’t registered your app on DevConsole register the app and get your
 	Pre-downloading: `SwiftyJSON` from `https://github.com/SwiftyJSON/SwiftyJSON.git`
 	Downloading dependencies
 	Installing Alamofire (4.4.0)
-	Installing CryptoSwift (0.6.9)
+	Installing CryptoSwift (0.7.1)
 	Installing OpenSSL (1.0.2.10)
 	Installing SwiftyJSON (2.4.0)
 	Generating Pods project
@@ -133,11 +133,13 @@ and find the appropriate Framework File for your swift version and download.Extr
 
 For Swift 2.3, you can just use the Current one in the master branch.
 
-For Swift 3, use https://github.com/AyoGitNg/isw-payment-sdk-ios/releases/tag/v.0.0.0.2
+For Swift 3, use https://github.com/AyoGitNg/isw-payment-sdk-ios/releases/download/v.0.0.0.2/PaymentSDK.framework.zip
 
-For Swift 3.2, use https://github.com/AyoGitNg/isw-payment-sdk-ios/releases/tag/v.0.0.0.3
+For Swift 3.2, use https://github.com/AyoGitNg/isw-payment-sdk-ios/releases/download/v.0.0.0.3/PaymentSDK.framework.zip
 
-For Swift 4, use https://github.com/AyoGitNg/isw-payment-sdk-ios/releases/tag/v.0.0.0.4
+For Swift 4, use https://github.com/AyoGitNg/isw-payment-sdk-ios/releases/download/v.0.0.0.4/PaymentSDK.framework.zip
+
+For Swift 4.0.2, use https://github.com/AyoGitNg/isw-payment-sdk-ios/releases/download/v.0.0.0.5/PaymentSDK.framework.zip
 
 In the dialog that appears, make sure ‘Copy items if needed’ is checked in the ‘Choose options for adding these files’
 
